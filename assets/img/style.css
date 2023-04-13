@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    flex: 1;
+    height: 1%;
+    width: 1%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 40px;
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #35cc33;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .btn {
+    flex: 1 0 900px; /* Change width to flex property */
+    max-width: 1000px; /* Add max-width to limit button width */
+    margin: 10px; /* Add margin for spacing between buttons */
+    padding: 230px; /* Increase padding to increase button size */
+    font-size: 30px; /* Keep text size unchanged */
+    border: none;
+    background-color: #35cc33;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .btn span {
+    display: block;
+    font-size: 20px;
+  }
+  
+  
